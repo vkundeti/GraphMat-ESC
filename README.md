@@ -23,6 +23,12 @@ To compile with Intel compiler + Intel MPI :
 To compile with gcc + MPICH:
 ----------------------------
     make MPICXX=mpic++ CXX=g++
+    
+To compile on NORDIC2 (ESC Cluster):
+------------------------------------
+Use the `BOOST_ROOT` from `/home/ESC/vamsikku/work/deps/boost_1_81_0`
+
+    make BOOST_ROOT=/home/ESC/vamsikku/work/deps/boost_1_81_0
 
 To run:
 -------
